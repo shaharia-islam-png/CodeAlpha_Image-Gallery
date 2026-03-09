@@ -92,19 +92,16 @@ body{
 .slide .item:nth-child(17){
     left: calc(50% + 3080px);
 }
-/* ১৮ নম্বর আইটেম (Egypt) */
 .slide .item:nth-child(18) {
     left: calc(50% + 3300px);
-    opacity: 1; /* এই লাইনটাই সবচেয়ে গুরুত্বপূর্ণ */
+    opacity: 1; 
 }
 
-/* ১৯ নম্বর আইটেম */
 .slide .item:nth-child(19) {
     left: calc(50% + 3520px);
     opacity: 1;
 }
 
-/* ২০ নম্বর আইটেম */
 .slide .item:nth-child(20) {
     left: calc(50% + 3740px);
     opacity: 1;
@@ -222,4 +219,15 @@ body{
     .content .des {
         font-size: 16px;
     }
+    .button {
+    z-index: 10; 
+}
+
+.button button {
+    width: 50px; 
+    height: 50px; 
+    font-size: 20px; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 2px solid #000; 
+}
 }
