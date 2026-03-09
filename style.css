@@ -213,7 +213,7 @@ body{
     }
     .item .content {
         position: absolute;
-        bottom: 130px; 
+        bottom: 180px; 
         left: 20px;
         width: calc(100% - 40px); 
         padding: 25px;
@@ -252,13 +252,13 @@ body{
         color: #333;
         font-size: 22px;
         font-weight: bold;
+        margin-bottom: 100px;
         cursor: pointer;
         transition: all 0.3s ease;
         box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     }
 
     .button button:hover {
-        background-color: #fff;
         transform: scale(1.1); 
     }
 }
